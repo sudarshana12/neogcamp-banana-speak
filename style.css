@@ -12,6 +12,7 @@ body{
 .hero{
     padding:1rem;
     padding-top: 2rem;
+    background-color: var(--primary-color);
 }
 .hero .hero-heading{
     color:var(--blue);
