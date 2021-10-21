@@ -1,2 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root{
+    --primary-color: #FCD34D;
+    --blue : #2563EB;
+}
+
+body{
+    font-family: 'Architects Daughter', sans-serif;
+    margin: 0px;
+}
+.hero{
+    padding:1rem;
+    padding-top: 2rem;
+}
+.hero .hero-heading{
+    color:var(--blue);
+     text-align: center;
+     padding-top: 1rem;
+}
+/**footers**/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: var(--blue);
+    border-top-right-radius: 1rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+
 
